@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurniroDC</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="./assets/Logo.png" type="image/png">
+
+
+</head>
+<body>
+<!-- all code in this section -->
+<section class="w-full">
+    <!-- nav bar -->
+        <div class="w-full h-[10vh] flex flex-row items-center">
+        <div class="w-full flex flex-row items-center justify-around">
+        <!-- logo div -->
+            <div class="flex flex-row self-baseline">
+            <img src="./assets/Logo.png" alt="" class="w-[50px] h-[32px]" >
+            <h2 class="font-bold text-2xl">Furniro</h2>
+            </div>
+            <!-- nav Conetent home,shop,contact -->
+            <div class="flex flex-row gap-[70px]">
+                <a href="#" id="homeTab" class="font-normal text-base hover:underline transition-all duration-200">Home</a>
+                <a href="#" id="shopTab" class="font-normal text-base hover:underline transition-all duration-200">Shop</a>
+                <a href="#" id="aboutTab" class="font-normal text-base hover:underline transition-all duration-200">About</a>
+                <a href="#" id="contactTab" class="font-normal text-base hover:underline transition-all duration-200">Contact</a>
+              </div>
+              
+        
+        
+        
+            <!-- profile div -->
+                <div class="flex flex-row gap-[40px]">
+                <a href="" class="w-[22px] h-[22px]"><img src="./assets/profile-logo.png" alt=""></a>
+                <a href="" class="w-[22px] h-[22px]"><img src="./assets/search_icon.png" alt=""></a>
+                <a href="" class="w-[22px] h-[22px]"><img src="./assets/icons_heart.png" alt=""></a>
+                <a href="" class="w-[22px] h-[22px]"><img src="./assets/shopping-cart-outlined.png" alt=""></a>
+                </div>
+        </div>
+        </div>
+    
+
+        
+<!-- About Section -->
+<div id="aboutSection" class="hidden py-20 bg-white">
+<div class="container mx-auto px-4 text-center">
+  <img src="./assets/founder.jpg" alt="Founder" class="w-40 h-40 object-cover rounded-full mx-auto mb-6">
+  <h2 class="text-4xl font-bold text-gray-800">About Furniro</h2>
+  <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+    Hi, I am <span class="font-semibold">Dushyant Singh Chauhan</span>, the founder of Furniro. Our journey began with a passion for creating stylish and affordable furniture. At Furniro, we believe that furniture is more than just an item — it's a reflection of your taste and comfort.
+  </p>
+  <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+    Our collection blends elegance with durability, ensuring every piece becomes a part of your story. Welcome to Furniro, where your dream home becomes a reality.
+  </p>
+</div>
+</div>
+
+<!-- Contact Section -->
+<div id="contactSection" class="hidden py-20 bg-white">
+<div class="container mx-auto px-4 text-center">
+  <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
+  <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Have questions or need assistance? Reach out to us, and our team will get back to you soon.</p>
+
+  <form class="mt-8 max-w-lg mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input class="border border-gray-300 p-3 rounded-md" type="text" placeholder="First Name" required>
+      <input class="border border-gray-300 p-3 rounded-md" type="text" placeholder="Last Name" required>
+    </div>
+    <input class="border border-gray-300 p-3 rounded-md w-full mt-4" type="email" placeholder="Email" required>
+    <textarea class="border border-gray-300 p-3 rounded-md w-full mt-4" placeholder="Your message" rows="5" required></textarea>
+    <button class="mt-6 bg-[#B88E2F] text-white px-6 py-3 rounded-md hover:bg-[#A07823]">Send Message</button>
+  </form>
+</div>
+</div>
+
+
+
+ <!-- home div -->
+
+
+ <div id="homeSection" class="w-full h-auto homeTab">
+    <!-- home-page-1 -->
+    <div class="w-full h-[100vh]">
+
+        <!-- profile section -->
+        <section class="relative bg-[url('./assets/homepageImg.png')] bg-cover bg-no-repeat bg-center w-full h-[90%]">
+            <!-- Image ke upar wala content div-->
+            <div class="absolute w-[538px] h-[372px] bg-[#FFF3E3] right-10 top-28 flex items-center">
+                <!-- content -->
+                    <div class= "mx-auto  w-[85%] h-[70%] ">
+                        <div class="flex flex-col gap-2">
+                            <p>New Arrival</p>
+                        <h2 class="text-[#B88E2F] font-bold text-4xl">Discover Our <br>New Collection</h2>
+                        <p class="text-[#111111]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatem, quibusdam quaerat distinctio alias quo.</p>
+                        </div>
+                        <button class="bg-[#B88E2F] px-8 py-3 text-white mt-11">Buy Now</button>
+                    </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+    <!-- Home-page-2 -->
+    <section class="w-full h-[590.67px]">
+        <div class="mx-auto">
+            <!-- heading div -->
+        <div class="flex flex-col w-full mx-auto mt-3">
+            <h2 class="font-bold text-2xl mx-auto">Browse the Range</h2>
+            <p class="mx-auto text-[#666666]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+
+<!-- grid Div -->
+<div class="grid grid-cols-3 grid-rows-1 w-11/12 mx-auto gap-2">
+<div class="w-full flex flex-col">
+    <img src="./assets/Mask-Group.png" alt="" class="w-full object-cover">
+    <p class="mx-auto">Dinning</p>
+</div>
+<div class="w-full flex flex-col">
+    <img src="./assets/living-room.png" alt="">
+    <p class="mx-auto">Living</p>
+</div>
+<div class="w-full flex flex-col">
+    <img src="./assets/Mask-Group-2.png" alt="">
+    <p class="mx-auto">Bedroom</p>
+</div>
+</div>
+        </div>
+    </section>
+
+
+
+    <!-- Home Page-3 -->
+    <section class="w-full h-screen">
+        <div class="w-full">
+            <!-- heading div -->
+            <div class="flex mx-auto w-full -mt-10 mb-3">
+                <h1 class="mx-auto text-3xl font-bold">Our Products</h1>
+            </div>
+
+            <!-- grid Div -->
+            <!-- grid Div -->
+<div class="grid grid-cols-4 grid-rows-2 gap-4 h-[110vh] w-[80vw] mx-auto">
+
+
+
+<!-- div-1 -->
+<div id="productTab" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-1.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-2 -->
+<div id="productTab2" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-2.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-3 -->
+<div id="productTab3" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/image-3.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-4 -->
+<div id="productTab4" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-4.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-5 -->
+<div id="productTab5" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Image-5.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-6 -->
+<div id="productTab6" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-6.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-7 -->
+<div id="productTab7" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-7.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-8 -->
+<div id="productTab8" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-8.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+        </div>
+        
+            <!-- Show More Option Div-->
+            <div class="w-full mx-auto">
+                <button class="mx-auto flex border border-[#B88E2F] pl-5 pr-5 pt-2 pb-2 mt-5">Show More</button>
+            </div>
+    </section>
+
+    <!-- Home Page-4 -->
+    <section class="w-full h-screen bg-[#FCF8F3] mt-44 flex">
+        <!-- left Div -->
+        <div class="w-[40%] h-full flex justify-center">
+            <div class="flex flex-col justify-center gap-3">
+                <h2 class="font-bold text-4xl">50+ Beautiful rooms <br> inspiration</h2>
+                <p class="text-[#616161]">Our designes already made a lot of beautiful
+                    <br> prototipe of rooms that inspire you
+                </p>
+                <button class="bg-[#B88E2F] w-[40%] text-white mt-4 p-2 pl-4 pr-4">Explore More</button>
+            </div>
+        </div>
+        <!-- Right Section -->
+<div class="w-[60%] flex flex-row items-center">
+<!-- main div -->
+<div class=" w-full h-[90%] flex gap-7">
+    <!-- div-1 Images rectangle 24 -->
+    <div class="w-[40%] bg-[url('./assets/item10.png')] bg-cover bg-center relative h-full">
+        <!-- image ke upar ka content -->
+        <div class="w-[65%]  h-[20%] absolute bottom-8 left-12 flex items-end">
+            <div class="flex bg-opacity-70 w-[80%] h-full flex-col pl-4 bg-[#FFFFFF] justify-center">
+                <div class="flex items-center gap-2 relative">
+                    <p>01</p>
+                    <div class="w-5 h-0.5 bg-[#616161] absolute left-5 top-3"></div>
+                    <p class="absolute left-12">Bed Room </p>
+                </div>
+                <h3 class="text-2xl">Inner Peace</h3>
+            </div>
+            <!-- Arow div -->
+            <div class="w-[40px] h-[40px] bg-[#B88E2F] flex items-center justify-center">
+                <img src="./assets/Vector-1.png" alt="" class="w-[15px] h-[12px]">
+            </div>
+        </div>
+    </div>
+
+    <!-- div-2 Images rectangle 25 -->
+    <div class="w-[40%] h-full relative">
+        <!-- Image Div -->
+        <div class="bg-[url('./assets/Rectangle-25.png')] bg-cover bg-center w-full h-[80%]"></div>
+        <!-- Indicator div-->
+        <div class="flex absolute mt-16 ml-14 w-[45%]  gap-3">
+            <div class="w-[11px] h-[11px] rounded-full bg-[#B88E2F]"></div>
+            <div class="w-[11px] h-[11px] rounded-full bg-[#D8D8D8]"></div>
+            <div class="w-[11px] h-[11px]  rounded-full bg-[#D8D8D8]"></div>
+            <div class="w-[11px] h-[11px] rounded-full bg-[#D8D8D8]"></div>
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+
+
+    <!-- Home Page-5 -->
+    <section class="bg-[#FFFFFF] w-full h-screen">
+        <!-- heading div -->
+        <div class="flex flex-col w-[165px] mx-auto items-center pt-4">
+            <p class="text-[#616161] mx-auto">Share your setup with</p>
+            <h3 class="text-3xl font-bold">#FuniroFurniture</h3>
+        </div>
+        <!-- image div -->
+        <div class="w-full h-[86%]">
+            <img src="./assets/ss.png" alt="" class="w-full h-full">
+        </div>
+    </section>
+
+
+
+    <!-- Home page-6 Footer Section -->
+        <section class="w-full h-[68vh] bg-[#FFFFFF] mt-7">
+            <hr class="border-t border-gray-300" />
+
+            <div class="w-[90%] mx-auto">
+                <!-- Fotter div -->
+            <div class="w-full mx-auto flex items-center justify-center mt-10">
+                <div class="grid grid-cols-[310px_155px_210px_310px] gap-3">
+                    <div class=" space-y-10">
+                        <h2 class="font-bold text-xl">Funiro.</h2>
+                        <div>
+                            <p class="text-[#9F9F9F]">400 University Drive Suite 200 Coral 
+                                <br> Gables,</p>
+                                <p class="text-[#9F9F9F]">FL 33134 USA</p>
+                        </div>
+                    </div>
+        
+                    <div class=" flex flex-col gap-9 items-start ml-6">
+                        <p class="text-[#9F9F9F]">Links</p>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Home</a>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Shop</a>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">About</a>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Contact</a>
+                    </div>
+                    <div class=" flex flex-col gap-9 items-start ml-10">
+                        <p class="text-[#9F9F9F]">Help</p>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Payment option</a>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Returns</a>
+                        <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Privacy Policies</a>
+                    </div>
+                    <div class=" flex flex-col gap-9 items-start ml-6">
+                        <p class="text-[#9F9F9F]">Newsletter</p>
+                        <div>
+                            <input type="email" placeholder="Enter Your email Address" class="focus:border-none underline focus:outline-none"> <button class="underline">Subscribe</button>
+                        </div>
+                    </div>
+                
+                </div>
+                
+
+                
+            </div>
+
+            
+                            <hr class="border-t border-gray-300 mt-10" />
+                                <p class="pt-7 pb-7">2023 furino. All rights reverved</p>
+
+            </div>
+
+
+        </section>
+
+</div>
+
+    <!-- Shop Section -->
+    <div id="shopSection" class="">
+        <!-- top div -->
+        <div class="flex gap-3 flex-col justify-center items-center w-full h-[53vh] bg-[url('./assets/about-top-image.png')] bg-cover bg-center">
+            <h2 class="font-bold text-4xl">Shop</h2>
+            <p>Home > Shop</p>
+        </div>
+        <!-- Middle Bar -->
+            <div class="w-full h-[12vh] bg-[#F9F1E7] -mt-2 flex flex-row items-center justify-around">
+                <!-- left Part -->
+                <div class="flex flex-row gap-3 ">
+                    <img src="./assets/filtering.png" alt="" class="w-25px h-25px">
+                    <p>Filter</p>
+                    <img src="./assets/4dot.png" alt="" class="w-25px h-25px">
+                    <img src="./assets/filterLogo.png" alt="" class="w-25px h-25px">
+                    <!-- vertical Line -->
+                    <div class="w-px h-6 bg-gray-400"></div>
+                    <p>Showing 1-16 of 32 results</p>
+                </div>
+                <!-- Right Part -->
+                <div class="flex items-center gap-3">
+                    <p>Show</p>
+                    <div class="w-[45px] h-[45px] bg-white flex justify-center items-center">16</div>
+                    <p>Short by</p>
+                    <div class="w-[188px] h-[45px] bg-white flex items-center pl-7">Default</div>
+                </div>
+            </div>
+
+
+            <!-- Grid Section -->
+            <!-- grid Div -->
+            <div class="grid grid-cols-4 grid-rows-2 gap-4 h-[230vh] w-[80vw] mx-auto mt-10">
+               <!-- div-1 -->
+<div id="productTab9" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-1.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-2 -->
+<div id="productTab10" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-2.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-3 -->
+<div id="productTab11" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/image-3.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-4 -->
+<div id="productTab12" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-4.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-5 -->
+<div id="productTab13" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Image-5.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-6 -->
+<div id="productTab14" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-6.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-7 -->
+<div id="productTab15" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-7.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-8 -->
+<div id="productTab16" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-8.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+              <!-- div-9 -->
+<div id="productTab17" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-1.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-10 -->
+<div id="productTab18" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-2.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-11 -->
+<div id="productTab19" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Image-3.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-12 -->
+<div id="productTab20" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-4.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-13 -->
+<div id="productTab21" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Image-5.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-14 -->
+<div id="productTab22" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-6.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-15 -->
+<div id="productTab23" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-7.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-16 -->
+<div id="productTab24" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-8.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                
+            </div> 
+            <!-- Product Number Showing div below the grid -->
+            <div class="w-full h-[12vh] flex justify-center gap-3 mt-7">
+                <div class="w-[55px] h-[55px] bg-[#B88E2F] flex items-center justify-center rounded-md">1</div>
+                <div class="w-[55px] h-[55px] bg-[#F9F1E7] flex items-center justify-center rounded-md">2</div>
+                <div class="w-[55px] h-[55px] bg-[#F9F1E7] flex items-center justify-center rounded-md">3</div>
+                <div class="w-[92px] h-[55px] bg-[#F9F1E7] flex items-center justify-center rounded-md">Next</div>
+                
+            
+                
+            </div>
+                
+
+            <!-- Div top from footer section -->
+                <section class="bg-[url('./assets/shopTopImageFromFooter.png')] w-full h-[30vh] bg-cover bg-center"></section>
+
+
+                <!-- Footer Section -->
+                <section class="w-full h-[58vh] bg-[#FFFFFF] mt-7">
+                
+        
+                    <div class="w-[90%] mx-auto">
+                        <!-- Fotter div -->
+                    <div class="w-full mx-auto flex items-center justify-center mt-10">
+                        <div class="grid grid-cols-[310px_155px_210px_310px] gap-3">
+                            <div class=" space-y-10">
+                                <h2 class="font-bold text-xl">Funiro.</h2>
+                                <div>
+                                    <p class="text-[#9F9F9F]">400 University Drive Suite 200 Coral 
+                                        <br> Gables,</p>
+                                        <p class="text-[#9F9F9F]">FL 33134 USA</p>
+                                </div>
+                            </div>
+                
+                            <div class=" flex flex-col gap-9 items-start ml-6">
+                                <p class="text-[#9F9F9F]">Links</p>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Home</a>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Shop</a>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">About</a>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Contact</a>
+                            </div>
+                            <div class=" flex flex-col gap-9 items-start ml-10">
+                                <p class="text-[#9F9F9F]">Help</p>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Payment option</a>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Returns</a>
+                                <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Privacy Policies</a>
+                            </div>
+                            <div class=" flex flex-col gap-9 items-start ml-6">
+                                <p class="text-[#9F9F9F]">Newsletter</p>
+                                <div>
+                                    <input type="email" placeholder="Enter Your email Address" class="focus:border-none underline focus:outline-none"> <button class="underline">Subscribe</button>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        
+        
+                        
+                    </div>
+        
+                    
+                                    <hr class="border-t border-gray-300 mt-10" />
+                                        <p class="pt-7 pb-7">2023 furino. All rights reverved</p>
+        
+                    </div>
+        
+        
+                </section>
+
+
+    </div>
+
+
+
+
+
+
+<!-- Single Product Section -->
+<div id="productSection" class="">
+<!-- Top level Div Nav Bar -->
+<div class="w-full h-[12vh] bg-[#F9F1E7] -mt-2 flex flex-row items-center pl-20 gap-2">
+    <a href="#" class="text-gray-400">Home</a>
+    <div class="font-bold">></div>
+    <a href="#" class="text-gray-400">Shop</a>
+    <div class="font-bold">></div>
+    <div class="w-[2px] h-6 bg-gray-400 ml-3"></div>
+    <p class="ml-5">Asgard sofa</p>
+</div>
+
+<!-- Product detail Section -->
+ <section class="w-full h-[100vh] gap-4 flex pt-12">
+    <!-- Left Part Div -->
+     <div class="w-[50%] flex gap-7">
+        <!-- Left Wali Small Images -->
+         <div class="flex flex-col gap-3 ml-20">
+            <div class="rounded-md flex items-center justify-center w-[72px] h-[76px] bg-[#F9F1E7]">
+                <img src="./assets/OutdoorSofa-1.png" alt="">
+            </div>
+            <div class="rounded-md flex items-center justify-center w-[72px] h-[76px] bg-[#F9F1E7]">
+                <img src="./assets/OutdoorSofa-2.png" alt="">
+            </div>
+            <div class="rounded-md flex items-center justify-center w-[72px] h-[76px] bg-[#F9F1E7]">
+                <img src="./assets/OutdoorSofa-3.png" alt="">
+            </div>
+            <div class="rounded-md flex items-center justify-center w-[72px] h-[76px] bg-[#F9F1E7]">
+                <img src="./assets/OutdoorSofa-4.png" alt="">
+            </div>
+         </div>
+         <!-- Left Part Ki Big IMage -->
+         <div class="w-[412px] h-[488px] bg-[#F9F1E7] flex items-center justify-center">
+            <img src="./assets/LargeSofa-1.png">
+        </div>
+     </div>
+     <!-- Right Part Div -->
+      <div class="w-[50%]">
+        <!-- content Part -->
+         <div class="flex flex-col gap-1.5">
+            <h2 class="text-4xl">Asgaard sofa</h2>
+            <p class="text-gray-400">Rs. 2500000.00</p>
+            <div class="flex flex-row gap-2 items-center"><img src="./assets/star-image.png" alt=""><div class="w-px h-4 bg-gray-400 mr-2"></div> <p class="text-gray-400">5 Customer Review</p></div>
+            <p>Setting the bar as one of the loudest speakers in its class, <br>
+                 the Kilburn is a compact, stout-hearted hero with a well-balanced <br>
+                  audio which boasts a clear midrange and extended highs for a <br>
+                   sound.
+             </p>
+             <p>Size</p>
+             <div class="flex flex-row gap-2">
+                <div class="bg-[#B88E2F] flex items-center justify-center w-[30px] h-[30px] text-white">L</div>
+                <div class="bg-[#F9F1E7] flex items-center justify-center w-[30px] h-[30px]">XL</div>
+                <div class="bg-[#F9F1E7] flex items-center justify-center w-[30px] h-[30px]">XS</div>
+            </div>
+            <p>Color</p>
+            <div class="flex flex-row gap-2">
+                <div class="bg-[#816DFA] rounded-full flex items-center justify-center w-[30px] h-[30px] text-white"></div>
+                <div class="bg-[#000000] rounded-full flex items-center justify-center w-[30px] h-[30px]"></div>
+                <div class="bg-[#B88E2F] rounded-full flex items-center justify-center w-[30px] h-[30px]"></div>
+            </div>
+            <div>
+                <input type="number" name="" id="" class="border-gray-400 border w-[50px] ">
+                <button class="border rounded-md border-gray-400 px-3 py-1.5">Add to Cart</button>
+                <button class="border rounded-md border-gray-400 px-3 py-1.5">+ Compare</button>
+            </div>
+            <hr class="border-t-1 border-gray-300 my-4 w-[90%]" />
+              <!-- grid -->
+               <div class="grid grid-cols-[75px,1fr] grid-rows-4 w-[50%] gap-2">
+                <p>SKU</p>
+                <p>: SS001</p>
+                <p>Category</p>
+                <p>: Sofas</p>
+                <p>Tags</p>
+                <p>: Sofa,Chair,Home,Shop</p>
+                <p>Share</p>
+                <div class="flex items-center gap-3">: <img src="./assets/facebook.png" alt="" class="w-[20px] h-[20px]"><img src="./assets/linkedin.png" alt="" class="w-[20px] h-[20px]"><img src="./assets/twitter.png" alt="" class="w-[20px] h-[20px]"></div>
+
+               </div>
+         </div>
+      </div>
+
+
+    </section>
+    <hr class="border-t-1 border-gray-300 my-4" />
+
+ <!-- Product Description -->
+  <section class="w-full h-[100vh] mt-9">
+           <!-- Description Content -->
+            <div class="w-[75%] mx-auto flex flex-col gap-6">
+                <div class="flex justify-center gap-5">
+                    <p class="font-bold text-xl">Description</p>
+                    <p class="text-gray-400 text-xl">Addtional Information</p>
+                    <p class="text-gray-400 text-xl">Reviews[5]</p>
+                </div>
+
+                <p class="text-gray-400">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+                <p class="text-gray-400">Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+            </div>
+
+            <!-- Product Extra Image -->
+             <div class="flex w-full gap-4 justify-center items-center mt-8">
+                <div class="bg-[#F9F1E7] rounded  w-[550px] h-[342px] flex justify-center items-center"><img src="./assets/whiteSofa.png" alt=""></div>
+                <div class="bg-[#F9F1E7] rounded w-[550px] h-[342px] flex justify-center items-center"><img src="./assets/whiteSofa2.png" alt=""></div>
+             </div>
+  </section>
+  <hr class="border-t-1 border-gray-300 my-10" />
+
+  <!-- Related Product Section -->
+   <section class="w-full h-[85vh]">
+    <!-- Heading Part -->
+     <h3 class="text-3xl mx-auto flex justify-center mb-9 font-bold">Realated Product</h3>
+     <!-- grid Div -->
+<div class="grid grid-cols-4 grid-rows-1 gap-4 h-[53vh] w-[80vw] mx-auto">
+
+
+
+<!-- div-1 -->
+<div id="productTab" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-1.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-2 -->
+<div id="productTab2" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-2.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-3 -->
+<div id="productTab3" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/image-3.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div-4 -->
+<div id="productTab4" class="w-[20%] flex flex-wrap gap-4">
+    <div class="relative card bg-white rounded-lg shadow hover:shadow-lg transition cursor-pointer"
+        onclick="showProductDetail(this)">
+        <!-- Content Hide -->
+        <div class="absolute inset-0 flex justify-center items-center bg-opacity-0 hover:bg-opacity-30 bg-black text-white opacity-0 hover:opacity-100 transition">
+            <button class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700">Add to Cart</button>
+        </div>
+        <!-- Content Showed -->
+        <div class="bg-[#F4F5F7]">
+            <!-- image div -->
+            <div class="w-full h-[70%]">
+                <img src="./assets/Images-4.png" alt="" class="w-full h-full">
+                <div></div>
+            </div>
+            <!-- content of card -->
+            <div class="w-full flex flex-col mx-7 mt-2 gap-1">
+                <h3 class="font-bold">Syltherine</h3>
+                <p class="text-[#898989] text-sm">Stylish Cafe Chair</p>
+                <!-- Price Div -->
+                <div class="flex flex-row gap-5">
+                    <p class="inline">Rs.25000.00</p>
+                    <strike class="text-[#898989] text-sm">Rs.3500.00</strike>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<!-- Show More Option Div-->
+<div class="w-full mx-auto">
+<button class="mx-auto flex border border-[#B88E2F] px-10 pt-2 pb-2 mt-10 text-[#B88E2F]">Show More</button>
+</div>
+   </section>
+
+   <hr class="border-t-1 border-gray-300 my-4" />
+<!-- Footer Section -->
+<section class="w-full h-[63vh] bg-[#FFFFFF] mt-7">
+
+<div class="w-[90%] mx-auto">
+    <!-- Fotter div -->
+<div class="w-full mx-auto flex items-center justify-center mt-10">
+    <div class="grid grid-cols-[310px_155px_210px_310px] gap-3">
+        <div class=" space-y-10">
+            <h2 class="font-bold text-xl">Funiro.</h2>
+            <div>
+                <p class="text-[#9F9F9F]">400 University Drive Suite 200 Coral 
+                    <br> Gables,</p>
+                    <p class="text-[#9F9F9F]">FL 33134 USA</p>
+            </div>
+        </div>
+
+        <div class=" flex flex-col gap-9 items-start ml-6">
+            <p class="text-[#9F9F9F]">Links</p>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Home</a>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Shop</a>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">About</a>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Contact</a>
+        </div>
+        <div class=" flex flex-col gap-9 items-start ml-10">
+            <p class="text-[#9F9F9F]">Help</p>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Payment option</a>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Returns</a>
+            <a href="#" class="hover:underline hover:scale-105 transition-all duration-200">Privacy Policies</a>
+        </div>
+        <div class=" flex flex-col gap-9 items-start ml-6">
+            <p class="text-[#9F9F9F]">Newsletter</p>
+            <div>
+                <input type="email" placeholder="Enter Your email Address" class="focus:border-none underline focus:outline-none"> <button class="underline">Subscribe</button>
+            </div>
+        </div>
+    
+    </div>
+    
+
+    
+</div>
+
+
+                <hr class="border-t border-gray-300 mt-10" />
+                    <p class="pt-7 pb-7">2023 furino. All rights reverved</p>
+
+</div>
+
+
+</section>
+
+</div>
+
+
+
+
+
+
+
+<script>
+const homeTab = document.getElementById('homeTab');
+const shopTab = document.getElementById('shopTab');
+const aboutTab = document.getElementById('aboutTab');
+const contactTab = document.getElementById('contactTab');
+const homeSection = document.getElementById('homeSection');
+const shopSection = document.getElementById('shopSection');
+const aboutSection = document.getElementById('aboutSection');
+const contactSection = document.getElementById('contactSection');
+const productSection = document.getElementById('productSection');
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Hide all sections except Home
+    hideAllSections();
+    homeSection.classList.remove('hidden');
+});
+
+// Function to hide all sections
+function hideAllSections() {
+    homeSection.classList.add('hidden');
+    shopSection.classList.add('hidden');
+    aboutSection.classList.add('hidden');
+    contactSection.classList.add('hidden');
+    productSection.classList.add('hidden');
+}
+
+// Show Home Section
+homeTab.addEventListener('click', () => {
+hideAllSections();
+homeSection.classList.remove('hidden');
+});
+
+// Show Shop Section
+shopTab.addEventListener('click', () => {
+hideAllSections();
+shopSection.classList.remove('hidden');
+});
+
+// Show About Section
+aboutTab.addEventListener('click', () => {
+hideAllSections();
+aboutSection.classList.remove('hidden');
+});
+
+// Show Contact Section
+contactTab.addEventListener('click', () => {
+hideAllSections();
+contactSection.classList.remove('hidden');
+});
+
+
+// Show Product Section and scroll to the top
+const productTabs = document.querySelectorAll('[id^="productTab"]');
+productTabs.forEach((tab) => {
+tab.addEventListener('click', () => {
+    hideAllSections(); // Hide all other sections
+    productSection.classList.remove('hidden'); // Show the product section
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
+});
+});
+
+
+</script>
+
+
+
+
+</section>
+</body>
+</html>
